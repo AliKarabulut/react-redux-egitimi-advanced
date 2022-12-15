@@ -7,7 +7,6 @@ function App() {
     <Layout>
       <Cart />
       <Products />
-      <p>asd</p>
     </Layout>
   );
 }
