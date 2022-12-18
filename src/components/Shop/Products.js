@@ -30,6 +30,7 @@ const Products = (props) => {
         {Dummy.map((pro) => (
           <ProductItem
             key={pro.id}
+            id={pro.id}
             title={pro.title}
             price={pro.price}
             description={pro.description}
